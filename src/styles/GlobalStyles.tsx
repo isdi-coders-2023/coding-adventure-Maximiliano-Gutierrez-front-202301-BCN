@@ -7,6 +7,7 @@ const GlobalStyles = createGlobalStyle`
 
 :root {
   --primary-color: #1E1E1E;
+  --secondary-color: #CCCF18;
   --primary-font: "Saira Stencil One", sans-serif;
   --secondary-font: "Roboto", sans-serif;
 }

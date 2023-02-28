@@ -5,17 +5,19 @@ const ButtonStyled = styled.button`
   cursor: pointer;
   border: none;
 
-  background-color: #cccf18;
+  background-color: var(--secondary-color);
   border-radius: 10px;
-  font-family: "Saira Stencil One", sans-serif;
+  font-family: var(--primary-font);
   width: 323px;
   height: 40px;
   top: 824px;
   font-size: 1.25rem;
 
   @media (min-width: 415px) {
-    width: 320;
     height: 3.56rem;
+  }
+
+  :disabled {
     opacity: 57%;
   }
 `;
