@@ -1,31 +1,40 @@
-import FormStyled from "./FormRegisterStyled";
+import FormRegisterStyled from "./FormRegisterStyled";
+import Button from "../Button/Button";
 
 const FormRegister = (): JSX.Element => {
   return (
     <>
-      <FormStyled>
+      <FormRegisterStyled className="form">
         <label htmlFor="email">
+          Email
           <input
+            className="form__input"
             type="email"
             id="email"
             placeholder="Introduce your email"
             required
           />
-          Email
         </label>
         <label htmlFor="password">
+          Password
           <input
+            className="form__input"
             type="password"
             id="password"
             placeholder="Introduce your password"
           />
-          Password
         </label>
         <label htmlFor="image">
-          <input type="file" id="image" placeholder="Introduce your image" />
           Image
+          <input
+            className="form__input"
+            type="file"
+            id="image"
+            placeholder="Introduce your image"
+          />
         </label>
-      </FormStyled>
+        <Button text={"Sign Up"} />
+      </FormRegisterStyled>
     </>
   );
 };

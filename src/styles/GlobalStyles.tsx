@@ -17,6 +17,7 @@ const GlobalStyles = createGlobalStyle`
 }
 
 body {
+  background-color: var(--primary-color);
   margin: 0;
   font-family: 'Work Sans', sans serif;
   padding: 30px 10px;
