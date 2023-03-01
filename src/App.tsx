@@ -1,7 +1,12 @@
 import React from "react";
+import FormRegister from "./components/FormRegister/FormRegister";
 
 const App = (): JSX.Element => {
-  return <p>Hello Developers!</p>;
+  return (
+    <>
+      <FormRegister />
+    </>
+  );
 };
 
 export default App;
